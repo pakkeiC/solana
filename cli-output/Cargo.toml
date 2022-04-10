@@ -17,6 +17,7 @@ console = "0.15.0"
 humantime = "2.0.1"
 Inflector = "0.11.4"
 indicatif = "0.16.2"
+<<<<<<< HEAD
 serde = "1.0.130"
 serde_json = "1.0.72"
 solana-account-decoder = { path = "../account-decoder", version = "=1.9.16" }
@@ -25,6 +26,18 @@ solana-client = { path = "../client", version = "=1.9.16" }
 solana-sdk = { path = "../sdk", version = "=1.9.16" }
 solana-transaction-status = { path = "../transaction-status", version = "=1.9.16" }
 solana-vote-program = { path = "../programs/vote", version = "=1.9.16" }
+=======
+pretty-hex = "0.2.1"
+semver = "1.0.6"
+serde = "1.0.136"
+serde_json = "1.0.79"
+solana-account-decoder = { path = "../account-decoder", version = "=1.11.0" }
+solana-clap-utils = { path = "../clap-utils", version = "=1.11.0" }
+solana-client = { path = "../client", version = "=1.11.0" }
+solana-sdk = { path = "../sdk", version = "=1.11.0" }
+solana-transaction-status = { path = "../transaction-status", version = "=1.11.0" }
+solana-vote-program = { path = "../programs/vote", version = "=1.11.0" }
+>>>>>>> 91993d89b (cli: sort option for validators by version)
 spl-memo = { version = "=3.0.1", features = ["no-entrypoint"] }
 
 [package.metadata.docs.rs]

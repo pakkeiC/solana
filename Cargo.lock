@@ -4788,6 +4788,11 @@ dependencies = [
  "console",
  "humantime",
  "indicatif",
+<<<<<<< HEAD
+=======
+ "pretty-hex",
+ "semver 1.0.6",
+>>>>>>> 91993d89b (cli: sort option for validators by version)
  "serde",
  "serde_json",
  "solana-account-decoder",
