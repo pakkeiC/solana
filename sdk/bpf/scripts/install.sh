@@ -102,7 +102,11 @@ if [[ ! -e criterion-$version.md || ! -e criterion ]]; then
 fi
 
 # Install Rust-BPF
+<<<<<<< HEAD
 version=v1.23
+=======
+version=v1.25
+>>>>>>> 6b611e1c5 (Bump bpf-tools to v1.25)
 if [[ ! -e bpf-tools-$version.md || ! -e bpf-tools ]]; then
   (
     set -e
