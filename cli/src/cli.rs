@@ -164,6 +164,8 @@ pub enum CliCommand {
         use_deprecated_loader: bool,
         allow_excessive_balance: bool,
         skip_fee_check: bool,
+        sign_only: bool,
+        signers: Option<String>
     },
     Program(ProgramCliCommand),
     // Stake Commands
