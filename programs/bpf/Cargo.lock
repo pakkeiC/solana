@@ -3340,6 +3340,7 @@ dependencies = [
  "lazy_static",
  "log",
  "quinn",
+ "quinn-proto",
  "rand 0.7.3",
  "rand_chacha 0.2.2",
  "rayon",
